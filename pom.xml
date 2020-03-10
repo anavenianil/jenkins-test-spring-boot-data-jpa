@@ -20,8 +20,8 @@
 	</properties>
 
 	<dependencies>
-	
-	<!-- Exclude Spring Boot's Default Logging -->
+
+		<!-- Exclude Spring Boot's Default Logging -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -50,7 +50,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
 		</dependency>
-	
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -84,20 +84,20 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
-	
+
 	<repositories>
-	<repository>
-	<id>myMavenRepo.read</id>
-	<url>https://mymavenrepo.com/repo/SpnA4oXCnLEicYltr4fZ/</url>
-	</repository>
+		<repository>
+			<id>myMavenRepo.read</id>
+			<url>https://mymavenrepo.com/repo/SpnA4oXCnLEicYltr4fZ/</url>
+		</repository>
 	</repositories>
 	<distributionManagement>
-	<repository>
-	<id>myMavenRepo.write</id>
-	<url>https://mymavenrepo.com/repo/eKHmEwjC1eu7nlWTDSZR/</url>
-	
-	</repository>
-	
+		<repository>
+			<id>myMavenRepo.write</id>
+			<url>https://mymavenrepo.com/repo/eKHmEwjC1eu7nlWTDSZR/</url>
+
+		</repository>
+
 	</distributionManagement>
 
 	<build>
